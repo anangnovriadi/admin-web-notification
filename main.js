@@ -4,7 +4,7 @@ const http = require("http");
 const morgan = require("morgan");
 const output = require("./utils/output");
 const cors = require("cors");
-const path = require('path');
+const path = require("path");
 
 require("dotenv").config();
 
