@@ -15,7 +15,7 @@ module.exports = function(sequelize, DataTypes) {
       device: {
         type: DataTypes.TEXT,
         allowNull: true
-      },
+      }
     },
     {
       tableName: "user_notifications",
